@@ -11,18 +11,10 @@ body {
 }
 
 header{
-    background-color: gray;
-    height: 100%;
-    width: 1440px;
-    
-}
-
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: black ;
     height: 82px;
 }
+
 
 .menu{
     display: flex;
@@ -32,14 +24,49 @@ header{
 
 .menu a{
     color: white;
-    font-size: 20;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
-    width: 1440px;
+    width: 1400;
     height: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container-grid{
+    width: 1400;
+    margin: 0 auto;
+}
+
+.banner{
+    background-image: url(../img/BANNER.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+
+}
+
+.itens-banner{
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.texto-banner{
+    color: white;
+    text-align: center;
+    width: 400;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
