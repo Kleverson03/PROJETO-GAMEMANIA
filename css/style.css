@@ -201,16 +201,24 @@ header{
     padding: 30px 0;
     display: flex;
     justify-content: space-between;
-    color: white;
+    background: #0018F5ED;
 }
 
 .links-footer{
     width: 30%;
-    display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 img{
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+
+h2{
+    color: white;
+}
+
+a{
+    color: white;
 }
