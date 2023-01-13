@@ -89,15 +89,75 @@ header{
 }
 
 .promocoes{
-    height: 1200px;
-   
+    padding-top: 30px;
+    background: linear-gradient(0.22deg, #0905A3 0.64%, rgba(9, 5, 163, 0.856621) 24.9%, rgba(9, 5, 163, 0.78) 62.06%, rgba(9, 5, 163, 0.88) 93.58%, rgba(9, 5, 163, 0.63) 101.4%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }
 
-section{
-    display: block;
-}
+
 
 .container1{
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 1800px;
+    margin: auto;
+    
+}
+
+.promocoes h2{
+    color: white;
+    font-size: 27px;
+}
+
+.espaco-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 45px ;
+}
+
+.cardnews{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.cardnews{
+    width: 15em;
+    height: 22em;
+    background: linear-gradient(180deg, rgba(83, 83, 83, 0.5) 0%, #000000 100%);
+}
+
+.cardnews a{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    line-height: 2;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.cardnews img{
+    width: 100%;
+}
+
+img, svg{
+    vertical-align: middle;
+}
+
+.textogamefotos{
+    width: 85%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
