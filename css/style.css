@@ -53,6 +53,17 @@ header{
 
 }
 
+.texto-banner a {
+    padding: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
 .itens-banner{
     display: flex;
     height: 100%;
@@ -73,11 +84,12 @@ header{
 }
 
 .jogos{
-    height: 120px;
+    height: 100px;
     background-color:white;
 }
 
-.ofertas{
+.promocoes{
+    height: 1200px;
    
 }
 
@@ -85,3 +97,7 @@ section{
     display: block;
 }
 
+.container1{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
