@@ -222,3 +222,29 @@ h2{
 a{
     color: white;
 }
+
+.sociais form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.sociais input[type="email"]{
+    height: 37px;
+    width: 65%;
+    border-radius: 0px;
+    border-style: none;
+    text-indent: 5px;
+}
+
+.sociais button{
+    width: 35%;
+    color: white;
+    background-color: #70004b;
+    border: none;
+    font-weight: 600;
+
+}
+.sociais p{
+    color: white;
+}
